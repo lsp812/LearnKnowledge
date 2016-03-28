@@ -17,6 +17,7 @@
 		B359D0901C71747B00A8A774 /* MacroDefinitionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B359D08F1C71747B00A8A774 /* MacroDefinitionVC.m */; };
 		B359D0931C7174DF00A8A774 /* BlockVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B359D0921C7174DF00A8A774 /* BlockVC.m */; };
 		B37325BD1C756E7300136DAF /* CacheVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B37325BC1C756E7300136DAF /* CacheVC.m */; };
+		B38F49151CA8D39E00364FD6 /* GCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B38F49141CA8D39E00364FD6 /* GCDViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		B359D0921C7174DF00A8A774 /* BlockVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockVC.m; sourceTree = "<group>"; };
 		B37325BB1C756E7300136DAF /* CacheVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheVC.h; sourceTree = "<group>"; };
 		B37325BC1C756E7300136DAF /* CacheVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacheVC.m; sourceTree = "<group>"; };
+		B38F49131CA8D39E00364FD6 /* GCDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDViewController.h; sourceTree = "<group>"; };
+		B38F49141CA8D39E00364FD6 /* GCDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +141,8 @@
 				B359D0921C7174DF00A8A774 /* BlockVC.m */,
 				B37325BB1C756E7300136DAF /* CacheVC.h */,
 				B37325BC1C756E7300136DAF /* CacheVC.m */,
+				B38F49131CA8D39E00364FD6 /* GCDViewController.h */,
+				B38F49141CA8D39E00364FD6 /* GCDViewController.m */,
 			);
 			path = learn;
 			sourceTree = "<group>";
@@ -247,6 +252,7 @@
 				B359D0701C7171D100A8A774 /* ViewController.m in Sources */,
 				B359D06D1C7171D100A8A774 /* AppDelegate.m in Sources */,
 				B359D0901C71747B00A8A774 /* MacroDefinitionVC.m in Sources */,
+				B38F49151CA8D39E00364FD6 /* GCDViewController.m in Sources */,
 				B359D06A1C7171D100A8A774 /* main.m in Sources */,
 				B37325BD1C756E7300136DAF /* CacheVC.m in Sources */,
 			);

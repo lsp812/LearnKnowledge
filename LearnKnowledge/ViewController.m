@@ -10,6 +10,7 @@
 #import "MacroDefinitionVC.h"
 #import "BlockVC.h"
 #import "CacheVC.h"
+#import "GCDViewController.h"
 @interface ViewController ()
 
 @end
@@ -64,7 +65,7 @@
 -(void)clickAction:(UIButton *)button
 {
     int index = button.tag-1;
-    NSLog(@"title = %@",button.currentTitle);
+    //    NSLog(@"title = %@",button.currentTitle);
     
     switch (index) {
         case 0:
@@ -76,7 +77,9 @@
         case 2:
             [self enterCache];
             break;
-            
+        case 3:
+            [self enterMultThread];
+            break;
         default:
             break;
     }
@@ -95,6 +98,11 @@
 -(void)enterCache
 {
     CacheVC *vc = [[CacheVC alloc]init];
+    [self presentViewController:vc animated:YES completion:nil];
+}
+-(void)enterMultThread
+{
+    GCDViewController *vc = [[GCDViewController alloc]init];
     [self presentViewController:vc animated:YES completion:nil];
 }
 
